@@ -41,7 +41,7 @@ namespace PluginRateeW
             // 
             // button1
             // 
-            this.button1.BackColor = System.Drawing.Color.MistyRose;
+            this.button1.BackColor = System.Drawing.Color.White;
             this.button1.Location = new System.Drawing.Point(67, 273);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(152, 58);
@@ -63,7 +63,7 @@ namespace PluginRateeW
             // 
             // button2
             // 
-            this.button2.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.button2.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.button2.Location = new System.Drawing.Point(67, 93);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(152, 57);
@@ -84,12 +84,13 @@ namespace PluginRateeW
             // 
             // ctlMain
             // 
+            this.BackColor = System.Drawing.SystemColors.ButtonShadow;
             this.Controls.Add(this.label2);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button1);
             this.Name = "ctlMain";
-            this.Size = new System.Drawing.Size(420, 348);
+            this.Size = new System.Drawing.Size(303, 348);
             this.ResumeLayout(false);
             this.PerformLayout();
 
